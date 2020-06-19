@@ -55,6 +55,9 @@ public class Nuker implements Listener {
 				
 				limit = Math.min(1000, tool.getType().getMaxDurability()-durability.getDamage());
 			}
+			else {
+				limit = 1000;
+			}
 		}
 		Block block, neighbor;
 		
