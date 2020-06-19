@@ -1,0 +1,4 @@
+name: TreeNuke
+main: net.benjaminurquhart.treenuke.TreeNuke
+version: 1.0
+api-version: 1.15
